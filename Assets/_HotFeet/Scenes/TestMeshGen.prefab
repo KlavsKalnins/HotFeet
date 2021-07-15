@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7709216916817032848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7709216916817032851}
+  - component: {fileID: 7709216916817032850}
+  - component: {fileID: 7709216916817032849}
+  m_Layer: 0
+  m_Name: TestMeshGen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7709216916817032851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709216916817032848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5734074, y: 0.23767471, z: 7.9032903}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7709216916817032850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709216916817032848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0512ccaeb4b174294a9ac940f00892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 0}
+  vertices2D: []
+  meshGenTime: 0.5
+  generatedMeshes: []
+--- !u!114 &7709216916817032849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709216916817032848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b3e368af7f3ae4baea6dea472627c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vert2:
+  - {x: 0, y: 1.014608}
+  - {x: 0, y: 2.0961573}
+  - {x: 0, y: 3.1179135}
+  - {x: 0, y: 4.1367726}
+  - {x: 0, y: 5.1877747}
+  - {x: -0.9469813, y: 5.5488677}
+  - {x: -1.9498533, y: 5.5488677}
+  - {x: -2.9505298, y: 5.373484}
+  - {x: -3.1923518, y: 4.321715}
+  - {x: -3.1923518, y: 3.3079016}
+  - {x: -3.170617, y: 2.2977428}
+  - {x: -2.1796298, y: 2.1058235}
+  - {x: -1.1652967, y: 2.1058235}
